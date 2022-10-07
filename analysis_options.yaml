@@ -1,0 +1,14 @@
+analyzer:
+  strong-mode:
+    implicit-casts: true
+    implicit-dynamic: true
+
+  exclude:
+    - "bin/cache/**"
+    - "lib/i18n/stock_messages_*.dart"
+    - "lib/src/http/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.config.dart"
+
+include: package:flutter_lints/flutter.yaml
